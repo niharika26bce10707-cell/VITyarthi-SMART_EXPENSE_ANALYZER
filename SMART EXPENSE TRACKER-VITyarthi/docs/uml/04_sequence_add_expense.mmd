@@ -1,0 +1,6 @@
+sequenceDiagram
+    User->>GUI: Enter expense
+    GUI->>Python: Add expense
+    Python->>SQLite: INSERT expense
+    SQLite-->>Python: Saved
+    Python-->>GUI: Show success

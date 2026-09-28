@@ -1,0 +1,42 @@
+SMART EXPENSE ANALYZER
+Simple Python Project Report
+
+1. INTRODUCTION
+Smart Expense Analyzer is a desktop application developed using Python, Tkinter and SQLite. It helps users record expenses and compare spending with a simple budget.
+
+2. PROBLEM STATEMENT
+Manual expense tracking can be difficult because users may forget transactions or lose records. A small computerized system can make recording and reviewing expenses easier.
+
+3. OBJECTIVES
+- Create a simple expense management application.
+- Practice Python functions and GUI programming.
+- Store data using SQLite.
+- Provide budget and spending information.
+- Demonstrate software development and testing.
+
+4. FUNCTIONAL REQUIREMENTS
+- Registration and login
+- Add expense
+- View expenses
+- Delete expense
+- Set budget
+- View spending summary
+
+5. NON-FUNCTIONAL REQUIREMENTS
+- Easy to use
+- Fast for normal local use
+- Reliable local data storage
+- Simple and maintainable code
+
+6. TECHNOLOGY
+Python, Tkinter and SQLite are used. Tkinter provides the GUI and SQLite stores user, expense and budget data.
+
+7. SYSTEM DESIGN
+The system follows a simple flow:
+User -> Tkinter GUI -> Python functions -> SQLite database.
+
+8. TESTING
+Basic unit tests check expense insertion and total expense calculation.
+
+9. CONCLUSION
+The project demonstrates how Python can be used to build a complete desktop application with GUI, database storage, validation and testing. The simplified implementation is intentionally easy to understand for academic demonstration and viva.

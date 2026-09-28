@@ -1,0 +1,9 @@
+flowchart TD
+    Start --> Login{Valid Login?}
+    Login -- No --> Error[Show Error]
+    Error --> Login
+    Login -- Yes --> Dashboard[Open Dashboard]
+    Dashboard --> Add[Add Expense]
+    Add --> Save[Save to SQLite]
+    Save --> Summary[Show Summary]
+    Summary --> End[End]
