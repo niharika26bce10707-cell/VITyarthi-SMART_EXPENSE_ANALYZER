@@ -63,7 +63,7 @@ The project uses functions, SQLite, and Tkinter instead of a large multi-class a
 
 ### 5. Input and Output
 
-![Input 2 and Output](Inputs%20and%20Outputs/Input%202%20and%20Output.png)
+![Input 2 and Output](Inputs%20and%20Outputs/Input%202%20and%20Output%202.png)
 
 ### 6. Output
 
